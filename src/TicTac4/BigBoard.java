@@ -1,5 +1,5 @@
 /*
- * Project TicTac4, 2018-04-22T22:24-0500
+ * Project TicTac4, 2018-04-23T10:24-0500
  *
  * Copyright 2018 Austin FitzGerald
  *
@@ -163,6 +163,8 @@ class BigBoard extends JFrame
    /**
     * Check three values to see if they are the same. If so, we have a winner for Tic-Tac-4
     *
+    * This function was borrowed from: http://www.coderslexicon.com/code/15/
+    *
     * @param tic The first winning color
     * @param tac The second winning color
     * @param toe The third winning color
@@ -176,6 +178,8 @@ class BigBoard extends JFrame
    /**
     * Goes through each possible winning Tic-Tac-Toe combination and calls another function to check if the three possible
     * winning colors are equal.
+    *
+    * This function was borrowed from: http://www.coderslexicon.com/code/15/
     *
     * @param grid The matrix used to house the winning colors
     * @return The winning Tic-Tac-4 color if there is a winner, null if there is not

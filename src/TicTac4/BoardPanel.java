@@ -1,5 +1,5 @@
 /*
- * Project TicTac4, 2018-04-22T22:24-0500
+ * Project TicTac4, 2018-04-23T10:24-0500
  *
  * Copyright 2018 Austin FitzGerald
  *
@@ -73,6 +73,8 @@ class BoardPanel extends JPanel
    /**
     * This function determines if anyone has won the game. It goes through each possible winning combination and checks
     * if the colors match for a given Piece's location.
+    *
+    * This function was borrowed from: https://github.com/axelronquist/connectfour/blob/5827f2b45bcdf6a7662b56b99d9510748f89c8df/src/connectfour/Board.java
     *
     * @param pieceRow    The Piece's row
     * @param pieceColumn The Piece's column
